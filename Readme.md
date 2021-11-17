@@ -1,3 +1,3 @@
-# kokoa clone 2021
+# skan_talk 2021
 
-HTML&CSS study
+HTML&CSS&JS study
