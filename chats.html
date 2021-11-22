@@ -5,7 +5,7 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Friends SkanTalk</title>
+        <title>Chats SkanTalk</title>
     </head>
     <body>
         <div class="status-bar">
@@ -24,63 +24,42 @@
         </div>
         
         <header class="screen-header">
-            <h1 class="screen-header__title">Friends</h1>
+            <h1 class="screen-header__title">Chats</h1>
             <div class="screen-header__icons">
                 <span><i class="fas fa-search fa-lg"></i></span>
+                <span><i class="far fa-comment-dots fa-lg"></i></span>
                 <span><i class="fas fa-music fa-lg"></i></span>
                 <span><a href="settings.html"><i class="fas fa-cog fa-lg"></i></a></span>
             </div>
         </header>
         
-        <a id="friends-display-link" link="">
-            <i class="fas fa-info-circle"></i>
-            Friends' Names Display
-            <i class="fas fa-chevron-right fa-xs"></i>
-        </a>
-        
-        <main class="friends-screen">
-            <div class="user-component">
-                <div class="user-component__column">
-                    <img src="etc/skan_cover.jpg" class="user-component__cover user-component__cover--xl"/>
-                    <div class="user-component__content">
-                        <h4 class="user-component__name">Skan</h4>
-                        <!-- <h6 class="user-component__text">Hello</h6> -->
-                    </div>
-                </div>
-                <div class="user-component__column"></div>
-            </div>
-            <div class="friends-screen__channel">
-                <div class="friends-screen__channel-hedaer">
-                    <span>Channel</span>
-                    <i class="fas fa-chevron-up fa-xs"></i>
-                </div>
+        <main class="main-screen">
+            <a href="chatting.html">
                 <div class="user-component">
                     <div class="user-component__column">
-                        <img src="etc/skan_cover.jpg" class="user-component__cover user-component__cover--sm"/>
+                        <img src="etc/skan_cover.jpg" class="user-component__cover"/>
                         <div class="user-component__content">
-                            <h4 class="user-component__name user-component__name--not-bold">Channel</h4>
-                            <!-- <h6 class="user-component__text">Hello</h6> -->
+                            <h4 class="user-component__name">Skan</h4>
+                            <h6 class="user-component__text">Hello</h6>
                         </div>
                     </div>
                     <div class="user-component__column">
-                        <div>
-                            <span>2</span>
-                            <i class="fas fa-chevron-right fa-xs"></i>
-                        </div>
+                        <span class="user-component__time">6:48</span>
+                        <div class="badge">1</div>
                     </div>
                 </div>
-            </div>
+            </a>
         </main>
 
         <nav class="nav">
             <ul class="nav__ul">
                 <li class="nav__li">
-                    <a class="nav__a" href="friends.html"> <i class="fas fa-user fa-2x"></i></a>
+                    <a class="nav__a" href="friends.html"><i class="far fa-user fa-2x"></i></i></a>
                 </li>
                 <li class="nav__li">
                     <a class="nav__a" href="chats.html">
                         <span class="nav__notification badge">1</span>
-                        <i class="far fa-comment fa-2x"></i>
+                        <i class="fas fa-comment fa-2x"></i>
                     </a>
                 </li>
                 <li class="nav__li">
@@ -94,4 +73,4 @@
 
         <script src="https://kit.fontawesome.com/fbe0e3198d.js" crossorigin="anonymous"></script>
     </body>
-</html>
+</html> 
