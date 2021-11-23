@@ -29,14 +29,15 @@
         </header>
 
         <form action="friends.html" method="get" id="login-form">
-            <input name="id" type="text" placeholder="Email or Phone number"/>
-            <input name="pw" type="password" placeholder="Password"/>
+            <input name="id" type="text" placeholder="Email or Phone number" required/>
+            <input name="pw" type="password" placeholder="Password" minlength="7" required/>
             <input type="submit" value="Log In"/>
             <a href="#">Find Account or Password</a>
         </form>
 
         <div id="no_mobile">
-            <span>세로모드로 변경해주세요</span>
+            <span>Display me</span>
+            <span>in portrait mode</span>
         </div>
         
         <script src="https://kit.fontawesome.com/fbe0e3198d.js" crossorigin="anonymous"></script>

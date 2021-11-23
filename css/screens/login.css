@@ -13,7 +13,8 @@
 }
 .welcome-header__title{
     margin-bottom:20px;
-    font-size:25px;
+    font-size:28px;
+    font-weight: 700;
 }
 .welcome-header__text{
     width:60%;
@@ -38,12 +39,13 @@
 }
 #login-form input::placeholder{
     color:rgba(0,0,0,0.4);
+    font-family: 'Indie Flower', cursive;
 }
 #login-form input:focus{
-    border-color:var(--yellow); 
+    border-color:olivedrab; 
 }
 #login-form input[type="submit"]{
-    background-color: var(--yellow);
+    background-color: olivedrab;
     cursor:pointer; 
     padding:15px;
     border-radius: 5px;
@@ -53,4 +55,8 @@
     text-decoration: none;
     color:inherit;
     font-size:13px;
+}
+#login-form input[value="Log In"]{
+    font-family: 'Indie Flower', cursive;
+    font-weight: 600;
 }
