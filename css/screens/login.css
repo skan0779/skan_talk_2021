@@ -1,3 +1,9 @@
+#login_page{
+    background-image:url("http://m.uthpik.com/web/upload/NNEditor/20210429/EBA79DED959CEAB3A0EC9691EC9DB4_9.18_1.jpg");
+    background-position: center;
+    background-position-y: -85px;
+    background-size: 95%;
+}
 .welcome-header{
     margin:90px 0px;
     text-align:center;
