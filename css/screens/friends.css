@@ -1,13 +1,20 @@
+body{
+    background: url(https://png.pngtree.com/thumb_back/fw800/background/20190223/ourmid/pngtree-cloth-black-atmosphere-simple-wild-background-purposewildcreativetexturebackground-image_69552.jpg);
+    background-position-y: top;
+}
 #friends-display-link{
     display:block;
     text-align: center;
     background-color:#fafafa;
+    opacity: 0.4;
     padding:15px 0px;
     margin-bottom:5px;
     margin-top:-10px;
+    color:rgba(0,0,0,0.6);
+    font-weight: 600;
 }
 #friends-display-link i{
-    color:rgba(0,0,0,0.3);
+    color:rgba(0,0,0,0.5);
 }
 .friends-screen{
     padding:0px var(--horizontal-space);
@@ -15,14 +22,14 @@
 }
 .friends-screen__channel{
     margin-top:25px;
-    border-top:1px solid rgba(0,0,0,0.2);
+    border-top:1px solid rgba(255,255,255,0.5);
     padding-top:15px;
 }
 .friends-screen__channel-hedaer{
     margin-bottom:30px;
     display:flex;
     justify-content: space-between;
-    color:rgba(0,0,0,0.5);
+    color:rgba(255,255,255,0.5);
 }
 
 @keyframes hide_Splash_Screen{

@@ -25,7 +25,8 @@
 
 body{
     font-family: 'Indie Flower', cursive;
-    color:#2e363e;
+    /* color:#2e363e; */
+    color:rgba(255,255,255,0.7);
 }
 .main-screen{
     padding:0px var(--horizontal-space);
