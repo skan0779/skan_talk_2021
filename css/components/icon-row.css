@@ -14,6 +14,12 @@
     margin-top:15px;
     font-weight: 600;
 }
-
+/* .icon-row-2 .icon-row__icon:last-child{
+    position: relative;
+    left:-260px;
+} */
+.icon-row__icon--none{
+    color:rgba(0,0,0,0.1);   
+}
 
 
