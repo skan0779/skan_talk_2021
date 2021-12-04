@@ -1,3 +1,3 @@
-# skan_talk 2021
+skan_talk_2021
 
-HTML&CSS&JS study
+HTML / CSS
